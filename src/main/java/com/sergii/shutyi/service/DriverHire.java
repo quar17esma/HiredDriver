@@ -10,7 +10,7 @@ import com.sergii.shutyi.model.role.driver.IDriver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DriverHire {
+public class DriverHire implements HireHumanToDriver {
     private List<DriveCategory> needCategories = new ArrayList<>();;
     private List<IDriver> drivers = new ArrayList<>();
     private String companyName = "Taxi";
